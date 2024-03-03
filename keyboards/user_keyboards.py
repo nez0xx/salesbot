@@ -4,6 +4,8 @@ from aiogram.types import (
     ReplyKeyboardMarkup,
     KeyboardButtonPollType,
 )
+
+
 def get_main_keyboard() -> ReplyKeyboardBuilder:
     builder = ReplyKeyboardBuilder()
     builder.add(KeyboardButton(text='Зарегистрироваться'))
